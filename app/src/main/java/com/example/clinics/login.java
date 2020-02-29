@@ -16,6 +16,8 @@ public class login extends AppCompatActivity {
     private RecyclerView.LayoutManager mlayoutManager;
     private ArrayList<wordclass> list;
 
+    // hi bosy
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

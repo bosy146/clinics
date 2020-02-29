@@ -73,7 +73,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="147dp"
         android:background="@drawable/shape"
-
         android:drawablePadding="4dp"
         android:gravity="center"
         android:hint="تسجيل الدخول"

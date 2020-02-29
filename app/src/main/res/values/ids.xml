@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emtext" type="id" />
+    <item name="pwText" type="id" />
+    <item name="emText" type="id" />
+    <item name="imageView" type="id" />
+</resources>

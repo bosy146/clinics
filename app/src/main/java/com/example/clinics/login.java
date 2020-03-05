@@ -18,7 +18,7 @@ public class login extends AppCompatActivity {
 
     private ArrayList<wordclass> list;
 
-    /// hi bosy - hima
+    /// hiiiiii 3/5
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

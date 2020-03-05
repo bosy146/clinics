@@ -31,12 +31,23 @@ public class login extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager ( mlayoutManager );
         mRecyclerView.setAdapter ( mAdapter );
+        mAdapter.SetOnItemClickListener(new wordadapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(int position) {
+                String list1=list.get(position).getmTextV1();
+                Intent in=new Intent(login.this,Detalis .class);
+                in.putExtra("name",list1);
+                startActivity(in);
+
+
+            }
+        });
     }
 
     public void CreateArrayList() {
         list = new ArrayList<> ();
-        list.add ( new wordclass ( R.drawable.heart, "text1", "text" ) );
-        list.add ( new wordclass ( R.drawable.eye, "text2", "text" ) );
-        list.add ( new wordclass ( R.drawable.b, "text3", "text" ) );
+        list.add ( new wordclass ( R.drawable.heart, "العيادات","1" ) );
+        list.add ( new wordclass ( R.drawable.eye, "العيون", "2" ) );
+        list.add ( new wordclass ( R.drawable.b, "التجميل" ,"3" ));
     }
 }

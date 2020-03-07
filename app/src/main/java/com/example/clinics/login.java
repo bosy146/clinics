@@ -45,8 +45,12 @@ public class login extends AppCompatActivity {
 
     public void CreateArrayList() {
         list = new ArrayList<> ();
-        list.add ( new wordclass ( R.drawable.heart, "العيادات", "1" ) );
-        list.add ( new wordclass ( R.drawable.eye, "العيون", "2" ) );
-        list.add ( new wordclass ( R.drawable.b, "التجميل", "3" ) );
+        list.add ( new wordclass ( R.drawable.heart, "منتجع صحى و صاله العاب رياضيه", "1" ) );
+        list.add ( new wordclass ( R.drawable.b, "مركز تجميل", "2" ) );
+        list.add ( new wordclass ( R.drawable.doctor, "العيادات", "3" ) );
+        list.add ( new wordclass ( R.drawable.skeleton, "مركز اشاعات", "4" ) );
+        list.add ( new wordclass ( R.drawable.fruit, "منتجات طبيعيه", "5" ) );
+        list.add ( new wordclass ( R.drawable.baby, "ساحه اطفال", "6" ) );
+        list.add ( new wordclass ( R.drawable.mug, "كافيتريا", "7" ) );
     }
 }

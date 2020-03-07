@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
 
-
         // دا تايمر بينفذ الى جواه  بعد وقت معين بالملي ثانية
         new Handler ().postDelayed ( new Runnable () {
             @Override

@@ -11,8 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".Detalis"></activity>
-        <activity android:name="com.example.clinics.Detalis"
-            tools:ignore="DuplicateActivity" />
         <activity android:name=".sigin" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".login" />

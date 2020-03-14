@@ -5,6 +5,7 @@ import android.widget.ImageView;
 public class wordclass {
     private Integer mImageView;
     private String mTextV1;
+    private String mTextV2;
    // private String mTextV2;
     public wordclass(int imageRes,String text,String text2)
     {

@@ -16,12 +16,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView ( R.layout.activity_main );
 
         // دا تايمر بينفذ الى جواه  بعد وقت معين بالملي ثانية
-        new Handler ().postDelayed ( new Runnable () {
-            @Override
-            public void run() {
-                Intent in = new Intent ( MainActivity.this, Main2Activity.class );
-                startActivity ( in );
-            }
-        }, 3000 );
+        //new Handler ().postDelayed ( new Runnable () {
+           // @Override
+            //public void run() {
+              //  Intent in = new Intent ( MainActivity.this, Main2Activity.class );
+              //  startActivity ( in );
+         //   }
+       // }, 3000 );
+    }
+
+    public void main(View view) {
+        Intent in = new Intent ( this, Main2Activity.class );
+        startActivity ( in );
     }
 }

@@ -41,19 +41,10 @@ public class login extends AppCompatActivity {
                 // هنا هتدخلى على الصفحات حسب ال position فى ال list
                 switch (position) {
                     case 0:
-                        startActivity ( new Intent ( login.this, Detalis.class ) );
+                        startActivity ( new Intent ( login.this, gym.class ) );
                         break;
                     case 1:
-                        startActivity ( new Intent ( login.this, Detalis.class ) );
-                        break;
-                    case 2:
-                        startActivity ( new Intent ( login.this, Detalis.class ) );
-                        break;
-                    case 3:
-                        startActivity ( new Intent ( login.this, Detalis.class ) );
-                        break;
-                    case 4:
-                        startActivity ( new Intent ( login.this, Detalis.class ) );
+                        startActivity ( new Intent ( login.this, beauty.class ) );
                         break;
                 }
 

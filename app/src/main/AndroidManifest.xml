@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Detalis"></activity>
+        <activity android:name="com.example.wedding.gym" />
+        <activity android:name=".gym" />
         <activity android:name=".sigin" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".login" />

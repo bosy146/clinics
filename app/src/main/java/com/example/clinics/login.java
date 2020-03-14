@@ -34,10 +34,19 @@ public class login extends AppCompatActivity {
             @Override
             public void onItemClick(int position) {
                 String list1 = list.get ( position ).getmTextV1 ();
-                Intent in = new Intent ( login.this, Detalis.class );
-                in.putExtra ( "name", list1 );
-                startActivity ( in );
+//                Intent in = new Intent ( login.this, Detalis.class );
+//                in.putExtra ( "name", list1 );
+//                startActivity ( in );
 
+                // هنا هتدخلى على الصفحات حسب ال position فى ال list
+                switch (position) {
+                    case 0:
+                        startActivity ( new Intent ( login.this, Detalis.class ) );
+                        break;
+                    case 1:
+                        startActivity ( new Intent ( login.this, Detalis.class ) );
+                        break;
+                }
 
             }
         } );

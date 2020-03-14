@@ -47,7 +47,6 @@ public class login extends AppCompatActivity {
                         startActivity ( new Intent ( login.this, beauty.class ) );
                         break;
                 }
-
             }
         } );
     }

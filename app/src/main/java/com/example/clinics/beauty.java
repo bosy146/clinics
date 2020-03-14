@@ -11,7 +11,7 @@ public class beauty extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gym);
+        setContentView(R.layout.activity_beauty);
         Intent intent=getIntent();
         String result=intent.getStringExtra("name");
         Toast.makeText(beauty.this,result,Toast.LENGTH_LONG).show();

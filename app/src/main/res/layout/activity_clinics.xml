@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gym">
+    tools:context=".clinics">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -26,13 +25,13 @@
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="212dp"
-            app:srcCompat="@drawable/gym" />
+            app:srcCompat="@drawable/doctor" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="المنتجع الصحى و صاله الالعاب الرياضيه"
+            android:text="العيادات الطبيه"
             android:textColor="#DF1F12"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -41,7 +40,7 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="252dp"
-            android:text=" فوائد الساونا الصحيه                     "
+            android:text=" يوجد الكثير من العيادات                     "
             android:textColor="#181718" />
 
     </LinearLayout>

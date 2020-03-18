@@ -7,7 +7,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.util.ArrayList;
+
+import butterknife.OnClick;
 
 public class login extends AppCompatActivity {
     private RecyclerView mRecyclerView;
@@ -16,6 +20,8 @@ public class login extends AppCompatActivity {
     private LinearLayoutManager mlayoutManager;
 
     private ArrayList<wordclass> list;
+    FirebaseAuth mFirebaseAuth;
+    private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     /// hiiiiii 3/5
 
@@ -43,8 +49,18 @@ public class login extends AppCompatActivity {
                     case 0:
                         startActivity ( new Intent ( login.this, gym.class ) );
                         break;
+
                     case 1:
                         startActivity ( new Intent ( login.this, beauty.class ) );
+                        break;
+                    case 2:
+                        startActivity ( new Intent ( login.this, clinics.class ) );
+                        break;
+                    case 3:
+                        startActivity ( new Intent ( login.this, x_ray.class ) );
+                        break;
+                    case 4:
+                        startActivity ( new Intent ( login.this, products.class ) );
                         break;
                 }
             }
@@ -58,7 +74,7 @@ public class login extends AppCompatActivity {
         list.add ( new wordclass ( R.drawable.doctor, "العيادات", "3" ) );
         list.add ( new wordclass ( R.drawable.skeleton, "مركز اشاعات", "4" ) );
         list.add ( new wordclass ( R.drawable.fruit, "منتجات طبيعيه", "5" ) );
-        list.add ( new wordclass ( R.drawable.baby, "ساحه اطفال", "6" ) );
-        list.add ( new wordclass ( R.drawable.mug, "كافيتريا", "7" ) );
+       // list.add ( new wordclass ( R.drawable.baby, "ساحه اطفال", "6" ) );
+        //list.add ( new wordclass ( R.drawable.mug, "كافيتريا", "7" ) );
     }
 }

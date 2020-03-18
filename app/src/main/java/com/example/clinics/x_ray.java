@@ -4,16 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
 
-public class beauty extends AppCompatActivity {
+public class x_ray extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beauty);
+        setContentView(R.layout.activity_x_ray);
         Intent intent=getIntent();
-       // String result=intent.getStringExtra("name");
-        //Toast.makeText(beauty.this,result,Toast.LENGTH_LONG).show();
     }
 }

@@ -13,7 +13,7 @@ public class gym extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gym);
         Intent intent=getIntent();
-        String result=intent.getStringExtra("name");
-        Toast.makeText(gym.this,result,Toast.LENGTH_LONG).show();
+        //String result=intent.getStringExtra("name");
+        //Toast.makeText(gym.this,result,Toast.LENGTH_LONG).show();
     }
 }

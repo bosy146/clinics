@@ -10,7 +10,7 @@
 
 
     <EditText
-        android:id="@+id/emtext"
+        android:id="@+id/emtext2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -25,14 +25,14 @@
         android:inputType="textEmailAddress"
         android:layoutDirection="rtl"
         android:padding="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintBottom_toTopOf="@+id/signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -47,10 +47,12 @@
         android:layoutDirection="rtl"
         android:padding="8dp"
         android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@+id/signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emtext" />
+        app:layout_constraintTop_toBottomOf="@+id/emtext2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -60,7 +62,7 @@
         android:text="تسجيل الدخول"
         android:textColor="@color/white"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/emtext"
+        app:layout_constraintBottom_toTopOf="@+id/emtext2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +70,7 @@
         app:layout_constraintVertical_bias="0.515" />
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/signup"
         android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="147dp"
@@ -76,24 +78,23 @@
         android:drawablePadding="4dp"
         android:gravity="center"
         android:hint="تسجيل الدخول"
-        android:onClick="login"
+
         android:padding="4dp"
         android:text="تسجيل الدخول"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emtext" />
+        app:layout_constraintTop_toBottomOf="@+id/emtext2" />
 
     <TextView
-        android:id="@+id/singin"
+        android:id="@+id/singinedit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="singin"
         android:text="انشاء حساب جديد"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login" />
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
